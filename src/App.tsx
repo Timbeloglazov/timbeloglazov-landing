@@ -2,8 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import { useTypewriter } from './hooks/useTypewriter'
 
 const SENSITIVITY = 0.8
-const VIDEO_SRC =
-  'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260530_042513_df96a13b-6155-4f6e-8b93-c9dee66fba08.mp4'
+const VIDEO_SRC = `${import.meta.env.BASE_URL}hero.mp4`
 
 const NAV_LINKS = ['Услуги', 'Dviga', 'Обучение', 'Контакты']
 
